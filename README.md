@@ -8,3 +8,12 @@ To learn more about Kubernetes and other related topics check the following exam
 * [Istio around everything else series](https://rinormaloku.com/series/istio-around-everything-else/)
 * [Simple CI/CD for Kubernetes with Azure DevOps](https://www.orange-networks.com/blogs/224-azure-devops-ci-cd-pipeline-to-deploy-to-kubernetes)
 * Envoy series - to be added!
+
+You first have to build the images as seen in the corresponding readme files in sa-frontend, sa-web-app, and sa-logic. Then you can use the following commands on the GCP console to get the images onto the container registry:
+docker pull florescss14/DockerImageName
+
+Tag your Image with Google proper way:
+docker tag florescss14/DockerImageName  gcr.io/<PROJECT_ID>/florescss14/DockerImageName:version
+
+Push your Image to the Google Container Registry
+docker push gcr.io/<PROJECT_ID>/florescss14/DockerImageName:version
