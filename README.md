@@ -8,6 +8,12 @@ To learn more about Kubernetes and other related topics check the following exam
 * [Istio around everything else series](https://rinormaloku.com/series/istio-around-everything-else/)
 * [Simple CI/CD for Kubernetes with Azure DevOps](https://www.orange-networks.com/blogs/224-azure-devops-ci-cd-pipeline-to-deploy-to-kubernetes)
 * Envoy series - to be added!
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Link to demo: https://pitt-my.sharepoint.com/:v:/g/personal/cwf24_pitt_edu/EWRgfWTJsRJPt9xdxipT8vkBX_LfT9NpT2LqHyXVsY9T9A?e=o8QGZD
+
+frontend image: https://hub.docker.com/r/florescss14/sentiment-analysis-frontend
+logic image: https://hub.docker.com/r/florescss14/sentiment-analysis-logic
+webapp image: https://hub.docker.com/r/florescss14/sentiment-analysis-web-app
 
 You first have to build the images as seen in the corresponding readme files in sa-frontend, sa-web-app, and sa-logic. Then you can use the following commands on the GCP console to get the images onto the container registry:
 docker pull florescss14/DockerImageName
