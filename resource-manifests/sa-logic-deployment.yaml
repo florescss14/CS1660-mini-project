@@ -21,7 +21,7 @@ spec:
         app: sa-logic
     spec:
       containers:
-        - image: rinormaloku/sentiment-analysis-logic
+        - image: gcr.io/cs166-327318/florescss14/sentiment-analysis-logic@sha256:9fccda4c24e5560b66502b9a0dadeff822861aa138cb79775f26d99d27fb927a
           imagePullPolicy: Always
           name: sa-logic
           ports:

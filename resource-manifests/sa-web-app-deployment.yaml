@@ -21,7 +21,7 @@ spec:
         app: sa-web-app
     spec:
       containers:
-      - image: rinormaloku/sentiment-analysis-web-app
+      - image: gcr.io/cs166-327318/florescss14/sentiment-analysis-web-app@sha256:3b0d38078fb2011a132afbd713af16871a43dec1a75e3815ad8cae51ad223047
         imagePullPolicy: Always
         name: sa-web-app
         env:
