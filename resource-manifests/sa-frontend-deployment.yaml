@@ -21,7 +21,7 @@ spec:
         app: sa-frontend                                  # 6
     spec:
       containers:
-        - image: gcr.io/cs166-327318/florescss14/sentiment-analysis-frontend@sha256:ba91a730b46fc8a79b96e7ffcfc886b88b0f50bb5931f16bc1311e50c3587d6a
+        - image: gcr.io/cs166-327318/florescss14/sentiment-analysis-frontend@sha256:71c002e5753fe695262ba8362ffdcaa894b6118a04f898dfe53c5ff0860a4f89
           imagePullPolicy: Always                         # 7
           name: sa-frontend
           ports:
